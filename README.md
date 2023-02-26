@@ -1,5 +1,6 @@
 # The Filecoin Name Service
-    FNS is a Domain Name System running on FILECOIN compatible with ENS.
+    Our goal is to create a fully open source, complete, sustainable, participatory, 
+    ENS compatible name system on FILECOIN, which we call FNS.
     
     The main difference between FNS and ENS lies in the economic model:
     FNS tokens are completely minted by users when they apply for a domain name.
@@ -38,15 +39,15 @@
     then this week 0x5FbDB2315678afecb367f032d93F642f64180a will receive 10 FNS and 1 FIL
 
 # FNS 中文介绍
-    FNS 是和ENS的兼容的在FILECOIN上的运行的域名系统。
+    我们的目标是建立一个完全开源，完整，可持续运行，所有人可参与的，在FILECOIN上的和ENS完全兼容的名称系统，我们把这个系统叫做FNS。
     
-    FNS和ENS 主要不同在于经济模型：
+    FNS和ENS 主要不同在于经济模型： FNS代币完全由用户在申请域名时铸造
 
 ## 总量和铸造：
     FNS的代币完全由用户在申请域名时铸造，总发行量100,000,000枚，开发团队获得其中的10%
 
     第一个申请域名的可以获得90个FNS, 第n个域名会铸造(1 + ((99 * (1980198 — n)) / 1980198)) 个FNS, 
-    域名申请地址获得其中9/10, 开发团队获得1/10； 当n >= 1980198时，申请域名不能获得FNS，n表示申请的第n个域名
+    域名申请地址获得其中9/10, 开发团队获得1/10； 当n >= 1980198时，申请域名不能获得FNS，n表示申请是第n个域名
 
 ## 作用：
     FNS 可以用于申请和更新域名，在申请和更新域名时1 FNS相当与1$, 如申请 fildomains.fil 一年有效期要支付 5 NFS，
